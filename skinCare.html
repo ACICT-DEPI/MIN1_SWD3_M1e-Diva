@@ -11,7 +11,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/checkskin.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
 
     <!-- box icons -->
@@ -28,9 +27,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
+
+
 <body>
     <!-- navbar -->
-    <nav class="navbar">
+    <header class="navbar nav-right" id="templatemo_nav_top">
+         <a href="#" class="logo"> </a>
             
             <div class="user-interactions">
                 <div class="cart">
@@ -38,42 +40,41 @@
                 </div>
                 
             </div>
-    </nav>
+    </header>
     <section class="navbar navbar-expand-lg navbar-light">
         <div class="container main-nav">
-            <a class="navbar-brand" href="#">
-                <img class="animated rubberBand" id="diva-logo" src="./images/blackDiva.png" alt="">
-            </a>
-            <button class="navbar-toggler" type="button" id="navbarToggler" data-bs-toggle="collapse"
-                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse nav-links" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="home.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="aboutUs.html">About</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link" href="productSport.html" id="shopDropdown" onclick="toggleDropdown(event)">
-                            Shop
-                        </a>
-                        <ul class="dropdown-menu" id="dropdownMenu">
-                            <li class="nav-item"><a class="nav-link" href="skinCare.html" style="width:max-content">Skin Care</a></li>
-                            <li class="nav-item" id="sportWearDesign" style="width:max-content"><a class="nav-link"
-                                    href="sportwear.html">Sport Wear</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="article.html">Articles</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contactUs.html" style="width:max-content">Contact Us</a>
-                    </li>
+          <a class="navbar-brand" href="#">
+            <img class="animated rubberBand" id="diva-logo" src="./images/blackDiva.png" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" id="navbarToggler" data-bs-toggle="collapse"
+            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse nav-links" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="aboutUs.html">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="productSport.html" id="shopDropdown" onclick="toggleDropdown(event)">
+                    Shop
+                </a>
+                <ul class="dropdown-menu" id="dropdownMenu">
+                  <li class="nav-item"><a class="nav-link" href="skinCare.html">Skin Care</a></li>
+                  <li class="nav-item" id="sportWearDesign" style="width:max-content"><a class="nav-link" href="sportwear.html">Sport Wear</a></li>
                 </ul>
-            </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="article.html">Articles</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contactUs.html" style="width:max-content">Contact Us</a>
+              </li>
+            </ul>
+          </div>
         </div>
     </section>
     <!-- Header -->
@@ -163,6 +164,7 @@
         </div>
        
      </section>
+
      <div class="allproduct-center">
         <a href="product.html" class="linkhere product-link ">All Products</a>
     </div>
@@ -193,14 +195,14 @@
     </section>
 
      <!-- footer section -->
-    <footer>
+     <footer>
     
         <div class="footer">
     
             <div class="footerSection">
                 <h5>Articles</h5>
-                <a href="skincareArticles.html">Skin Care</a>
-                <a href="sportArticles.html">Sport</a>
+                <a href="index.html">Skin Care</a>
+                <a href="sportwear.html">Sport</a>
                 <a href="publicArticle.html">Public</a>
             </div>
             <div class="footerSection">
@@ -213,9 +215,8 @@
             </div>
             <div class="footerSection">
                 <h5>E-commerce</h5>
-                <a href="skincareEcommerce.html">Skin Care Products</a>
-                <a href="sportwearEcommerce.html">Sport Wear</a>
-                <a href="clothesEcommerce.html">Clothes</a>
+                <a href="product.html">Skin Care Products</a>
+                <a href="productSport.html">Sport Wear</a>
             </div>
     
         </div>
@@ -223,6 +224,8 @@
             Keep
             your SMILE you are a Diva</h2>
     </footer>
+
+    
     <script src="js/stylcart.js"></script>
     <script src="js/check.js"></script>
    

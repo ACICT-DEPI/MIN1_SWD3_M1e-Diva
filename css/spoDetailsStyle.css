@@ -1,4 +1,4 @@
-.navbar {
+/* .navbar {
     width: 100%;
     height: 80px;
     position: fixed;
@@ -9,12 +9,12 @@
     z-index: 9;
     transition: 0.5s;
     background: rgba(243, 218, 222, 0.1);
-}
+} */
 
-.navbar.bg {
+/* .navbar.bg {
     background: #fce4e4;
 }
-
+ */
 .links-container {
     color: #fce4e4;
 }
@@ -24,7 +24,7 @@
 .cart-btn,
 .user-icon {
     color: #e4b5a5;
-}
+} 
 
 /* product */
 .product-section {
@@ -113,21 +113,118 @@
 }
 
 /* Media Queries for Responsiveness */
-@media (max-width: 768px) {
-    .navbar {
+@media  (max-width: 1300px){
+    /* .navbar {
         height: 60px;
+    } */
+    
+    .product-section {
+        /* align-items: center; */
+        margin-top: 20%;
+        width: 70%;
+        /* flex-direction: column; تغيير من صف إلى عمود */
+        gap: 10px;
+        /* margin-bottom: 10%; */
     }
-
+    .product-image {
+        padding-right: 20%;
+    }
+    .imgcont .product-image {
+        object-fit: contain;
+    }
+    
     .product-title {
-        font-size: 36px;
+        font-size: 40px;
+        color: #e4b5a5;
+        /* padding: 10%; */
     }
-
     .product-des {
-        font-size: 18px; 
+        /* margin-top: 19%; */
+
+        font-size: 16px; 
+    }
+    .btn {
+        display: inline-block;
+        padding: 12px 20px;
+        color: transparent;
+        font-size: 18px;
+        font-weight: 500;
+        border: 0 solid transparent;
+        transition: all 0.6s;
+        border-radius: 0%;
+        /* margin-bottom: -9%; */
+    }
+}
+
+
+@media (max-width: 848px) {
+    /* .navbar {
+        height: 60px;
+    } */
+
+    .product-section {
+        /* align-items: center; */
+        margin-top: 60%;
+        /* flex-direction: column; تغيير من صف إلى عمود */
+        gap: 10px;
+        /* margin-bottom: 10%; */
+    }
+    
+    .imgcont .product-image {
+        object-fit: contain;
+    }
+    
+    .product-title {
+        font-size: 40px;
+        color: #e4b5a5;
+        margin-top: -10%;
+    }
+    .product-des {
+        margin-top: 19%;
+
+        font-size: 16px; 
+    }
+    .product-btn {
+        padding: 7px 18px;
+        margin-bottom: 10px;
+        outline: none;
+        font-size: 22px;
+        margin-right: 25px;
+        text-transform: capitalize;
+        cursor: pointer;
+    }
+    
+
+    
+    .product-btn:hover {
+        color: #a09a9a;
+    }
+    
+    .buy-btn {
+        padding-top: 40px;
+        color: #ddd;
+        background-color: #e4b5a5;
+    }
+    
+    .buy-btn:hover {
+        border-radius: none;
+        border: 0 solid transparent;
+    }
+    
+    .btn {
+        display: inline-block;
+        width: 100%;
+        height: 190;
+        padding: 7px 10px;
+        
+        margin-bottom: 9%;
     }
 
-    .price {
-        font-size: 36px; 
+    
+    .btn:hover {
+        transform: scale(0.9) translateY(-6px);
+        border: 0 solid transparent;
+        background: transparent;
     }
 
     .product-section {

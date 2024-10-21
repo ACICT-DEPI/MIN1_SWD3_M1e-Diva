@@ -353,8 +353,10 @@ section{
 }
 .col-icon i{
     margin-bottom: 20px;
-    width: 35px;
-    height: 35px;
+    width: 45px;
+    height: 45px;
+    font-size: 25px;
+    font-weight: bold;
     background: #dddbd9;
     color: #e4b5a5;
     display: inline-flex;
@@ -437,7 +439,6 @@ footer {
     align-items: left;
     gap: 1%;
 }
-
 .footerSection {
     height: min-content;
     display: flex;
@@ -452,23 +453,21 @@ footer {
     color: white;
 }
 
-/* @media(max-width: 1610px){
+@media(max-width: 1300px){
     header{
         padding: 15px 7%;
     }
-    section{
-        padding: 70px 7% 80px;
-    }
+    
     .category{
         padding: 20px 7%;
     }
     .feature{
         padding: 15px 7%;
     }
-} */
+}
 
 
-@media (min-width: 1600px) {
+/* @media (min-width: 1600px) {
     :root {
         --h1-font: 4.5rem;
         --h2-font: 2.5rem;
@@ -477,9 +476,10 @@ footer {
     .home-text h2 {
         font-size: var(--h1-font);
     }
-}
+} */
 
-@media (max-width: 1200px) {
+
+/* @media (max-width: 1300px) {
     header {
         padding: 15px 8%;
     }
@@ -489,27 +489,25 @@ footer {
     .home-text p {
         font-size: 1rem;
     }
-}
+} */
 
-@media (max-width: 768px) {
-    header {
-        padding: 15px 5%;
-    }
-   
+@media (max-width: 868px) {
+    
+    
     
 
-    .navlist {
+    /* .navlist {
         display: none;
-    }
-    .nav-right {
+    } */
+    /* .nav-right {
         display: none;
-    }
-    section {
+    } */
+    /* section {
         padding: 60px 5% 50px;
-    }
-    .home {
+    } */
+    /* .home {
         height: auto;
-    }
+    } */
     .home-text {
         padding: 40px;
     }
@@ -520,26 +518,33 @@ footer {
         font-size: 0.9rem;
     }
     .center-text{
+           /* مهم */
+        margin-left: 30%;
         text-align: none;
         margin-right: 100px;
     }
     
+    
     .n-content{
-        /* width: 33%; */
-        align-items: center;
+        /* مهم */
+        
+        margin-left: 30%;
+        /* align-items: center; */
         display: grid;
         /* padding: 50px; */
         padding-top: 0;
+        padding-right: 0;
+        padding-left: 0;
         
     }
     .row-img{
-        /* width: 1000px; */
         align-items: center;        
         margin-left: 0;
         overflow: visible;
         
     }
     .n-product img {
+        margin-right: 10%;
         width: 150px;
         height: 200px;
     }
@@ -548,8 +553,10 @@ footer {
         
     }
     .n-btn{
+        
         text-align: none;
-        margin-right: 100px;
+        /* مهم */
+        margin-left: 9%;
         margin-top: 2rem;
     }
 
