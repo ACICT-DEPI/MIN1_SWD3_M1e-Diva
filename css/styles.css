@@ -52,8 +52,9 @@
     }
 
     .header-title {
-        font-size: 55px;
+        font-size: 50px;
         text-align: center;
+        margin-top: 10%;
         /* margin-left: 5vw; */
         /* margin-bottom: -7vh; */
 
@@ -62,7 +63,9 @@
     .header-img {
        
         width: auto;
+        margin-left: -10%;
         padding-bottom: 15%;
+        margin-bottom: 1%;
         
     }
 
@@ -128,6 +131,7 @@
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
     /* height: auto; */
     margin-bottom: 30px;
+   
 
   }
   .testimonial{
@@ -181,6 +185,7 @@
     grid-area: 2/4/4/6;  
   }
   .testimonialCard{
+    width:80%;
     padding: 10px;
     background-color: #F8F8F8;
     border-radius: 10px;
@@ -212,6 +217,7 @@
   }
   .personData2{
     margin-top: -10%;
+    width: 70%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -219,6 +225,7 @@
   }
  .personName2{
     padding-top: 20%;
+    font-size: 18px;
  }
 .person-3{
   display: flex;
@@ -252,11 +259,13 @@
 .imgGroup{
   display: flex;
   flex-direction: row;
-  gap: 10px;
+  /* gap: 10px; */
   background-color: none;
   align-items: center;
   justify-content: center;
   gap: 20px;
+  width: 77%;
+  margin-left: 4%;
 }
 .personImgGroup{
   width: 95px;
@@ -282,7 +291,7 @@
 }
 .personImgSqr8{
   width: 200px;  
-  object-fit: cover;
+  object-fit: auto;
   height: 300px;
 
 }
@@ -308,6 +317,15 @@
     height: 100px;
     
    }
+     .personImgSqr8 {
+       width: 100px;
+       object-fit: auto;
+       height: 150px;
+  
+     }
+         .personData9 {
+           width: 43%;
+         }
  }
 
  @media screen and (min-width: 900px) and (max-width: 1200px){
