@@ -38,6 +38,7 @@ header{
     position: fixed;
     top: 0;
     right: 0;
+    height: 40px;
     width: 100%;
     z-index: 1000;
     /* background-color: var(--bg-color); */
@@ -119,7 +120,7 @@ section{
     position: relative;
     height: 100vh;
     width: 100%;
-    background: url(../images/cove.jpg);
+    background: url(../images/coversport4.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -128,21 +129,23 @@ section{
 }
 
 .home-text{
-    padding: 60px;
+    margin-top: 15%;
+    padding: 10%;
 
 }
 
 .home-text h2{
+
     font-size: var(--h1-font);
     font-weight: 700;
     line-height: 1;
     margin-bottom: 20px;
-    color: var(--second-color);
+    color: #db9e89;
 
 }
 
 .home-text h6{
-    font-size: 20px;
+    font-size: 28px;
     font-weight: 500;
     color: var(--second-color);
     letter-spacing: 3px;
@@ -153,10 +156,11 @@ section{
 
 .home-text p{
     width: 100%;
-    max-width: 560px;
+    font-size: 48px;
+    max-width: 510px;
     font-size: var(--p-font);
-    font-weight: 400;
-    color: var(--second-color);
+    font-weight: 800;
+    color: #2e1f1f;
     line-height: 33px;
     margin-bottom: 35px;
 }
@@ -168,6 +172,7 @@ section{
     font-size: 18px;
     font-weight: 500;
     border: 2px solid transparent;
+    color: #e4b5a5;
     transition: all .6s;
     border-radius: 50%;
 }

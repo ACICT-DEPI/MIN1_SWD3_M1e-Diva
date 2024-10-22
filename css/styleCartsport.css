@@ -2,10 +2,12 @@
 
 .cart-overlay{
     background: #f7e1da;
+    
 }
 .carts {
     height: 800px;
     background: #f7e1da;
+    z-index: 1;
 
 }
 

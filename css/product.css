@@ -6,6 +6,17 @@
     height: 400px;
     object-fit: cover;
 } */
+ .section-title{
+    margin-top: 10%;
+ }
+ .product-card{
+    width: 60%;
+    margin: 1%;
+ }
+ .product-img{
+    object-fit: contain;
+
+ }
 .cart-btn{
     padding: 3px 8px;
     font-size: 28px;

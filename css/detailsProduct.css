@@ -17,7 +17,7 @@
     width: 100%;
 
     /* تغيير من 50% إلى auto */
-    object-fit: cover;
+    object-fit: contain;
     border-radius: 30%;
 }
 .product-detail {
@@ -297,11 +297,12 @@
 @media (max-width: 480) {
     .product-section{
         display: grid;
+        /* height: 400px; */
      }
     .product-image {
         margin-top: 90%;
-        height:200px;
-        width: 90%;
+        height:50px;
+        width: 40%;
         margin-bottom: -70%;
         /* تغيير من 50% إلى auto */
         object-fit: cover;
