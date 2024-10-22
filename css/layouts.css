@@ -26,19 +26,20 @@
   /* padding: 10px; */
   position: fixed;
   top: 40px;
-  left : 50%;
- 
+  left: 50%;
+
   transform: translateX(-50%);
-  
+
   z-index: 100;
 }
 
 #diva-logo {
   height: 16vh;
   width: 15vw;
-  
+
 }
-#diva-logo:hover{
+
+#diva-logo:hover {
   animation: logoAnimate 5s ease 0s 3 reverse forwards;
 }
 
@@ -145,13 +146,14 @@
   width: auto;
   margin-top: 5px;
   position: absolute;
-    left: 0;
-    top: 100%;
-    background-color: #fffefe0b;
-    border: #00000000;
+  left: 0;
+  top: 100%;
+  background-color: #fffefe0b;
+  border: #00000000;
 
- 
+
 }
+
 #sportWearDesign {
   width: max-content;
 }
@@ -177,7 +179,7 @@
 
 
 
-  
+
 
 /* slider section  */
 
@@ -218,7 +220,7 @@
   /* width: 1140px;
   max-width: 80%; */
   width: 70%;
-  
+
   height: auto;
   transform: translateX(-50%);
   padding-right: 30%;
@@ -238,7 +240,7 @@
   font-size: 3em;
   color: #36c4f7;
   /* text-shadow: 0; */
-  
+
 }
 
 .slider .list .item .content .description {
@@ -255,7 +257,7 @@
   grid-template-rows: 40px;
   gap: 5px;
   margin-top: 20px;
- 
+
 }
 
 .slider .list .item .button button {
@@ -480,18 +482,21 @@
     font-size: 50px;
   }
 }
-body{
+
+body {
   padding: 0;
   margin: 0;
- 
+
 }
-#homeHeader{
+
+#homeHeader {
   width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
 }
+
 #mainHeader {
   height: 100vh;
   width: auto;
@@ -513,10 +518,10 @@ body{
   justify-content: center;
   /* position: relative;
   bottom: 0; */
- 
+
   margin-right: 50px;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-padding-bottom: 2%;
+  padding-bottom: 2%;
   /* Space from the bottom of the background */
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
   font-family: 'Courier New', Courier, monospace;
@@ -587,9 +592,10 @@ padding-bottom: 2%;
   width: 100vw;
 }
 
-#homeAbout:hover{
-animation: aboutAnim 2s ease 0s 1 normal forwards;
+#homeAbout:hover {
+  animation: aboutAnim 2s ease 0s 1 normal forwards;
 }
+
 @keyframes aboutAnim {
   0% {
     animation-timing-function: ease-in;
@@ -633,6 +639,7 @@ animation: aboutAnim 2s ease 0s 1 normal forwards;
     transform: translateX(0);
   }
 }
+
 #homeAboutText {
   font-size: 20px;
   color: rgb(11, 11, 11);
@@ -1011,7 +1018,7 @@ p {
   border-radius: 50%;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   z-index: 1001;
-  
+
 
 }
 
@@ -1046,7 +1053,7 @@ p {
   min-height: 100%; */
   flex: 0 0 100%;
   box-sizing: border-box;
-  padding: 10px;  
+  padding: 10px;
   border-radius: 10px;
   transition: opacity 0.5s ease;
   margin-top: 10%;
@@ -1117,6 +1124,7 @@ p {
 .next {
   right: 10px;
 }
+
 @media (max-width: 768px) {
   .card-description {
     font-size: 0.9em;
@@ -1146,7 +1154,7 @@ p {
   font-size: 20px;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
   backdrop-filter: blur(5px);
-  margin: 5% ;
+  margin: 5%;
 }
 
 
@@ -1167,7 +1175,7 @@ p {
   backface-visibility: hidden;
   padding: 50px 45px;
   border-radius: 15px;
- 
+
 }
 
 .contactInputs {
