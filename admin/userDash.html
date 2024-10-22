@@ -35,19 +35,18 @@
                     <ul class="sidenav-list">
                         <li class="nav-item"><a class="links" href="userDash.html">Users</a>
                         <ul class="dropdown-list">
-                            <li><a href="../login.html">Add User</a></li>
-                            
+                            <li><a href="#">Add User</a></li>
+                            <li><a href="#">Update User</a></li>
                         </ul>
                         </li>
                         <li class="nav-item"><a class="links" href="#">Ecommerce</a>
                             <ul class="dropdown-list">
-                                <li><a href="./productdashSkin.html">Skincare</a></li>
-                                <li><a href="./productDashSport.html">SportWear</a></li>
-                                <li><a href="../add-product.html">Add Product</a></li>
+                                <li><a href="#">Skincare</a></li>
+                                <li><a href="#">SportWear</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item"><a class="links" href="#">Articles</a></li>
-                        <li class="nav-item"><a class="links" href="#">Contacts</a></li>
+                       <li class="nav-item"><a class="links" href="#">Contacts</a></li>
+                        <li class="nav-item"><a class="links" href="#" id="logoutBtn">Log Out</a></li>
                     </ul>
                 </div>
             </div>
@@ -64,17 +63,17 @@
                             <span class="fas fa-bars"></span>
                         </button>
                     </div>
-                    <!-- <div class="search">
+                    <div class="search">
                         <form class="d-flex" role="search">
                             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                             <button class="btn btn-outline-success" type="submit">Search</button>
                         </form>
-                    </div> -->
-
-                    <div class="welcomeUser">
-                        <span>Welcome, John Doe</span>
-                        <img class="userImg img-fluid" src="../images/customer01.jpg" alt="" srcset="">
                     </div>
+
+                <div class="welcomeUser">
+                    <span>Welcome, User</span>
+                    <img class="userImg img-fluid" src="" alt="User Image" />
+                </div>
                 </div>
                 <!-- end mainHead -->
 
@@ -82,7 +81,7 @@
                 <div class="mainSection">
 
                     <!-- start table -->
-                    <div class="table-responsive col-lg-12 col-md-12 col-sm-12">
+                    <div class="table-responsive col-lg-12 col-md-8 col-md-6">
                         <table id="table">
                             <thead>
                                 <tr>
@@ -92,6 +91,7 @@
                                     <th>Phone</th>
                                     <th>Image</th>
                                     <th>Country</th>
+                                    <th>Role</th>
                                     <th>Delete</th>                                    
                                     <th>Edit</th>
 
@@ -108,9 +108,9 @@
                     <!-- end table -->
 
                     <!-- start hiddenCard -->
-                    <!-- <div class="hiddenCard" id="hiddenCard">
+                    <div class="hiddenCard" id="hiddenCard">
 
-                    </div> -->
+                    </div>
                     <!-- end hiddenCard -->
                 </div>
                 <!-- end mainSection -->
@@ -138,6 +138,10 @@
                     <div class="mb-3">
                         <label for="country" class="form-label">Country</label>
                         <input type="text" class="form-control" id="country" name="country" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="role" class="form-label">Role</label>
+                        <input type="text" class="form-control" id="role" name="role" required>
                     </div>
                     <div class="mb-3">
                         <input type="file" class="form-control" id="fileInput">
@@ -200,9 +204,9 @@
             // table.style.width = "80vw";
             // hiddenCard.style.width = "20vw";
             if (main.classList.contains('col-lg-12')) {
-                main.style.height = "90vh";
+                main.style.height = "80vh";
                 table.style.width = "90vw";
-                // hiddenCard.style.width = "20vw";
+                hiddenCard.style.width = "20vw";
             } else {
                 main.style.height = ""; // reset to default height
                 table.style.width = ""; // reset to default width
