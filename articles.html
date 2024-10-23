@@ -320,19 +320,26 @@ footer {
                 <div class="collapse navbar-collapse nav-links" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="home.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
+                            <a class="nav-link" href="aboutUs.html">About</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#" id="shopDropdown" onclick="toggleDropdown(event)">
+                                Shop
+                            </a>
+                            <ul class="dropdown-menu" id="dropdownMenu">
+                                <li class="nav-item"><a class="nav-link" href="skinCare.html">Skin Care</a></li>
+                                <li class="nav-item" id="sportWearDesign" style="width:max-content"><a class="nav-link"
+                                        href="sportwear.html">Sport Wear</a></li>
+                            </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Shop</a>
+                            <a class="nav-link" href="articles.html">Articles</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Articles</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact Us</a>
+                            <a class="nav-link" href="contactUs.html">Contact Us</a>
                         </li>
                     </ul>
                 </div>
@@ -492,12 +499,7 @@ footer {
     
         <div class="footer">
     
-            <div class="footerSection">
-                <h5>Articles</h5>
-                <a href="skincareArticles.html">Skin Care</a>
-                <a href="sportArticles.html">Sport</a>
-                <a href="publicArticle.html">Public</a>
-            </div>
+          
             <div class="footerSection">
                 <h5>Main</h5>
                 <a href="home.html">Home</a>
@@ -507,10 +509,12 @@ footer {
                 <a href="testimonials.html">Testimonials</a>
             </div>
             <div class="footerSection">
+                <a href="articles.html">Public</a>
+            </div>
+            <div class="footerSection">
                 <h5>E-commerce</h5>
-                <a href="skincareEcommerce.html">Skin Care Products</a>
-                <a href="sportwearEcommerce.html">Sport Wear</a>
-                <a href="clothesEcommerce.html">Clothes</a>
+                <a href="skinCare.html">Skin Care Products</a>
+                <a href="sportwear.html">Sport Wear</a>
             </div>
     
         </div>
