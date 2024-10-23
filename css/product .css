@@ -17,9 +17,11 @@
     object-fit: contain;
 
  }
+ 
 .cart-btn{
     padding: 3px 8px;
-    font-size: 28px;
+    padding-bottom: 20px;
+    font-size: 30px;
     color: #c7af7a;
     /* background: rgba(231, 232, 231, 0.1); */
     border: 0px solid transparent;
